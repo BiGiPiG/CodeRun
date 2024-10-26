@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Another_number_theory_problem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        long a = sc.nextInt();
-        long b = sc.nextInt();
+        long a = sc.nextLong();
+        long b = sc.nextLong();
 
         System.out.print(gcd(a, b));
         System.out.print(" ");
